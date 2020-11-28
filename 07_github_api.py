@@ -1,3 +1,5 @@
+## Hagamos un bot para descargar fotos de los usuarios de github.
+
 import requests
 
 # Constants
@@ -29,5 +31,5 @@ user = get_github_user(username)
 filename = download_github_user_avatar(user['avatar_url'], username)
 print(filename)
 
-
+#Nota: se creó una carpeta tmp donde se descargarán las imágenes. 
 
